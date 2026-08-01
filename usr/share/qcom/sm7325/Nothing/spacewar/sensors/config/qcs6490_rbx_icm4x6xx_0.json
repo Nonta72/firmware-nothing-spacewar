@@ -1,7 +1,7 @@
 {
   "config":{
     "hw_platform": ["IOT"],
-    "platform_subtype_id": ["1", "2", "5"],
+    "platform_subtype_id": ["1", "2", "5", "10"],
     "soc_id": ["498", "575"],
     "persist.vendor.sensors.enable.NavMezzCard":["false"],
     "persist.vendor.sensors.enable.NavMezzCard_Rev2":["false"]

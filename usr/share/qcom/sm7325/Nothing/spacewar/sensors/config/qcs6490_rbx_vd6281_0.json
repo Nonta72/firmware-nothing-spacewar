@@ -1,0 +1,1123 @@
+{
+  "config":{
+    "hw_platform": ["IOT"],
+    "platform_subtype_id": ["10"],
+    "soc_id": ["498"]
+  },
+  "vd6281_0":{
+    "owner": "sns_vd6281",
+    ".config":{
+      "owner": "sns_vd6281",
+      "is_dri":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "hw_id":{ "type": "int", "ver": "0",
+        "data": "112"
+      },
+      "res_idx":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "sync_stream":{ "type": "int", "ver": "0",
+        "data": "0"
+      }
+    }
+  },
+  "vd6281_0_platform":{
+   "owner": "sns_vd6281",
+    ".config":{
+      "owner": "sns_vd6281",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "32"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "142"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+      "data": "/pmic/client/sensor_vddio"
+       },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+    ".ratio": {
+          "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.000000"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.000000"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.000000"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.000000"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.000000"
+      },
+      "05": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.000000"
+      }
+    },
+    ".wgolden": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "5318836.0"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "16777215.0"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "10321459.0"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "14507686.0"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "14107142.0"
+      }
+    },
+    ".bgolden": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "5318836.0"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "16777215.0"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "10321459.0"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "14507686.0"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "14107142.0"
+      }
+    },
+    ".wxcoef": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.129844"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.498624"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.038019"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "05": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.416513"
+      },
+      "06": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.713899"
+      },
+      "07": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.297364"
+      },
+      "08": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "09": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "10": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "11": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "12": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "13": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      }
+    },
+    ".wycoef": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.029023"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.272595"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.060615"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "05": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.284085"
+      },
+      "06": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.205839"
+      },
+      "07": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.325375"
+      },
+      "08": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "09": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "10": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "11": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "12": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "13": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      }
+    },
+    ".wzcoef": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.113329"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.696444"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.547847"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "05": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.545179"
+      },
+      "06": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.267817"
+      },
+      "07": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.156949"
+      },
+      "08": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "09": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "10": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "11": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "12": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "13": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      }
+    },
+    ".bxcoef": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.129844"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.498624"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.038019"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "05": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.416513"
+      },
+      "06": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.713899"
+      },
+      "07": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.297364"
+      },
+      "08": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "09": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "10": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "11": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "12": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "13": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      }
+    },
+    ".bycoef": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.029023"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.272595"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.060615"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "05": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.284085"
+      },
+      "06": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.205839"
+      },
+      "07": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.325375"
+      },
+      "08": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "09": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "10": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "11": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "12": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "13": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      }
+    },
+    ".bzcoef": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.113329"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.696444"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.547847"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "05": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.545179"
+      },
+      "06": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.267817"
+      },
+      "07": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.156949"
+      },
+      "08": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "09": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "10": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "11": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "12": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "13": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      }
+    },
+    ".alsconf": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "30"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "200000"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "12800"
+      }
+    }
+  },
+  "vd6281_0_matrix":{
+    "owner": "sns_vd6281",
+    ".vewxcoef": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-2.686394"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.411453"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.105520"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.779120"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.063242"
+      },
+      "05": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.162498"
+      },
+      "06": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.754411"
+      },
+      "07": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.177005"
+      },
+      "08": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.236930"
+      },
+      "09": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.892049"
+      },
+      "10": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.852091"
+      },
+      "11": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-3.011904"
+      },
+      "12": {
+        "type": "flt",
+        "ver": "0",
+        "data": "7.477328"
+      },
+      "13": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-4.280278"
+      }
+    },
+    ".vewycoef": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.789006"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.189617"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.032578"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.497034"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.064647"
+      },
+      "05": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.717839"
+      },
+      "06": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.178255"
+      },
+      "07": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.117683"
+      },
+      "08": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.241096"
+      },
+      "09": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.839350"
+      },
+      "10": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.796736"
+      },
+      "11": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-4.716119"
+      },
+      "12": {
+        "type": "flt",
+        "ver": "0",
+        "data": "8.981400"
+      },
+      "13": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-4.395321"
+      }
+    },
+    ".vewzcoef": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "2.332487"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.797602"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.338983"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.088494"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.117605"
+      },
+      "05": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.256482"
+      },
+      "06": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.862063"
+      },
+      "07": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.990032"
+      },
+      "08": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.837828"
+      },
+      "09": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.898194"
+      },
+      "10": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.309001"
+      },
+      "11": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-8.397727"
+      },
+      "12": {
+        "type": "flt",
+        "ver": "0",
+        "data": "9.995630"
+      },
+      "13": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-3.209611"
+      }
+    },
+    ".vebxcoef": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-2.686394"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.411453"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.105520"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.779120"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.063242"
+      },
+      "05": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.162498"
+      },
+      "06": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.754411"
+      },
+      "07": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.177005"
+      },
+      "08": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.236930"
+      },
+      "09": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.892049"
+      },
+      "10": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.852091"
+      },
+      "11": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-3.011904"
+      },
+      "12": {
+        "type": "flt",
+        "ver": "0",
+        "data": "7.477328"
+      },
+      "13": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-4.280278"
+      }
+    },
+    ".vebycoef": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.789006"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.189617"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.032578"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.497034"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.064647"
+      },
+      "05": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.717839"
+      },
+      "06": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.178255"
+      },
+      "07": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.117683"
+      },
+      "08": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.241096"
+      },
+      "09": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.839350"
+      },
+      "10": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.796736"
+      },
+      "11": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-4.716119"
+      },
+      "12": {
+        "type": "flt",
+        "ver": "0",
+        "data": "8.981400"
+      },
+      "13": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-4.395321"
+      }
+    },
+    ".vebzcoef": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "2.332487"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.797602"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.338983"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.088494"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.117605"
+      },
+      "05": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.256482"
+      },
+      "06": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-0.862063"
+      },
+      "07": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.990032"
+      },
+      "08": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1.837828"
+      },
+      "09": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-1.898194"
+      },
+      "10": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.309001"
+      },
+      "11": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-8.397727"
+      },
+      "12": {
+        "type": "flt",
+        "ver": "0",
+        "data": "9.995630"
+      },
+      "13": {
+        "type": "flt",
+        "ver": "0",
+        "data": "-3.209611"
+      }
+    },
+    ".wgolden": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "2261248.0"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "3263488.0"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1069056.0"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.000000"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "24576.0"
+      }
+    },
+      ".bgolden": {
+      "owner": "sns_vd6281",
+      "00": {
+        "type": "flt",
+        "ver": "0",
+        "data": "3261248.0"
+      },
+      "01": {
+        "type": "flt",
+        "ver": "0",
+        "data": "5263488.0"
+      },
+      "02": {
+        "type": "flt",
+        "ver": "0",
+        "data": "1069056.0"
+      },
+      "03": {
+        "type": "flt",
+        "ver": "0",
+        "data": "0.000000"
+      },
+      "04": {
+        "type": "flt",
+        "ver": "0",
+        "data": "34576.0"
+      }
+    }
+  }
+}

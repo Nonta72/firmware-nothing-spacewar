@@ -2,7 +2,7 @@
     "config":{
         "hw_platform": ["IOT"],
         "soc_id": ["498", "575"],
-        "platform_subtype_id": ["1", "2", "5"]
+        "platform_subtype_id": ["1", "2", "5", "10"]
     },
 
     "default_sensors": {
