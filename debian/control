@@ -1,0 +1,9 @@
+Package: firmware-nothing-spacewar
+Source: firmware-nothing-spacewar
+Version: 1.0
+Architecture: arm64
+Maintainer: Mailining <fix@fix.me>
+Section: non-free-firmware/kernel
+Priority: optional
+Homepage: https://github.com/Nonta72/firmware-nothing-spacewar/
+Description: Non-free firmware blobs for Nothing Phone (1)
